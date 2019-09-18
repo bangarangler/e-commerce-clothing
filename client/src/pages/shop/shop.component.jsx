@@ -6,8 +6,6 @@ import {fetchCollectionsStart} from '../../redux/shop/shop.actions.js';
 
 import Spinner from '../../components/spinner/spinner.component.jsx';
 
-//import CollectionPageContainer from '../collection/collection.container.jsx';
-//import CollectionsOverviewContainer from '../../components/collections-overview/collections=overview.container.jsx';
 const CollectionPageContainer = lazy(() => import('../collection/collection.container.jsx'))
 const CollectionsOverviewContainer = lazy(() => import('../../components/collections-overview/collections=overview.container.jsx'))
 
