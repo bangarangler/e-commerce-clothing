@@ -13,6 +13,7 @@ CartHidden	client/src/redux/cart/cart.selectors.js	/^export const selectCartHidd
 CartItems	client/src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
 CartItemsCount	client/src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	c
 CartTotal	client/src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	c
+CheckoutPage	client/src/App.js	/^const CheckoutPage = lazy(() =>$/;"	c
 CollectionAndDocuments	client/src/firebase/firebase.utils.js	/^export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {$/;"	c
 Collections	client/src/redux/shop/shop.selectors.js	/^export const selectCollections = createSelector($/;"	c
 CollectionsForPreview	client/src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	c
@@ -25,6 +26,7 @@ CurrentUser	client/src/redux/user/user.selectors.js	/^export const selectCurrent
 Data	client/src/redux/user/user.sagas.js	/^    yield put(signUpSuccess({user, additionalData: {displayName}}));$/;"	c
 DirectorySections	client/src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
 GlobalStyle	client/src/global.styles.js	/^export const GlobalStyle = createGlobalStyle`$/;"	v
+HomePage	client/src/App.js	/^const HomePage = lazy(() => import('.\/pages\/homepage\/homepage.component.jsx'));$/;"	c
 INITIAL_STATE	client/src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	client/src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
 INITIAL_STATE	client/src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
@@ -51,6 +53,8 @@ Reducer	client/src/redux/root-reducer.js	/^const rootReducer = combineReducers({
 Reducer	client/src/redux/shop/shop.reducer.js	/^const shopReducer = (state = INITIAL_STATE, action) => {$/;"	c
 Reducer	client/src/redux/user/user.reducer.js	/^const userReducer = (state = INITIAL_STATE, action) => {$/;"	c
 ShopActionTypes	client/src/redux/shop/shop.types.js	/^const ShopActionTypes = {$/;"	c
+ShopPage	client/src/App.js	/^const ShopPage = lazy(() => import('.\/pages\/shop\/shop.component.jsx'));$/;"	c
+SignInAndSignUpPage	client/src/App.js	/^const SignInAndSignUpPage = lazy(() =>$/;"	c
 SignInStart	client/src/redux/user/user.actions.js	/^export const emailSignInStart = (emailAndPassword) => ({$/;"	c
 SignInStart	client/src/redux/user/user.actions.js	/^export const googleSignInStart = () => ({$/;"	c
 StateToProps	client/src/App.js	/^const mapStateToProps = createStructuredSelector({$/;"	c
