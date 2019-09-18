@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	client/src/App.js	/^const App = ({checkUserSession, currentUser}) => {$/;"	c
+Cart	client/src/redux/cart/cart.actions.js	/^export const clearCart = () => ({$/;"	c
+CartActionTypes	client/src/redux/cart/cart.types.js	/^export const CartActionTypes = {$/;"	c
+CartActionTypes	client/src/redux/cart/cart.types.js	/^export const CartActionTypes = {$/;"	v
+CartHidden	client/src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	c
+CartHidden	client/src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	c
+CartItems	client/src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	c
+CartItemsCount	client/src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	c
+CartTotal	client/src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	c
+CollectionAndDocuments	client/src/firebase/firebase.utils.js	/^export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {$/;"	c
+Collections	client/src/redux/shop/shop.selectors.js	/^export const selectCollections = createSelector($/;"	c
+CollectionsForPreview	client/src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	c
+CollectionsSnapshotToMap	client/src/firebase/firebase.utils.js	/^export const convertCollectionsSnapshotToMap = (collections) => {$/;"	c
+CollectionsStart	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsStart = () => ({$/;"	c
+CollectionsStartAsync	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsStartAsync = () => {$/;"	c
+Config	client/src/redux/root-reducer.js	/^const persistConfig = {$/;"	c
+CurrentUser	client/src/firebase/firebase.utils.js	/^export const getCurrentUser = () => {$/;"	c
+CurrentUser	client/src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	c
+Data	client/src/redux/user/user.sagas.js	/^    yield put(signUpSuccess({user, additionalData: {displayName}}));$/;"	c
+DirectorySections	client/src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	c
+GlobalStyle	client/src/global.styles.js	/^export const GlobalStyle = createGlobalStyle`$/;"	v
+INITIAL_STATE	client/src/redux/cart/cart.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	client/src/redux/directory/directory.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	client/src/redux/shop/shop.reducer.js	/^const INITIAL_STATE = {$/;"	c
+INITIAL_STATE	client/src/redux/user/user.reducer.js	/^const INITIAL_STATE = {$/;"	c
+InSuccess	client/src/redux/user/user.actions.js	/^export const signInSuccess = (user) => ({$/;"	c
+InWithGoogle	client/src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(googleProvider);$/;"	c
+IsCollectionFetching	client/src/redux/shop/shop.selectors.js	/^export const selectIsCollectionFetching = createSelector($/;"	c
+IsCollectionsLoaded	client/src/redux/shop/shop.selectors.js	/^export const selectIsCollectionsLoaded = createSelector($/;"	c
+ItemFromCart	client/src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	c
+ItemToCart	client/src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	c
+Items	client/src/redux/cart/cart.reducer.js	/^        cartItems: addItemToCart(state.cartItems, action.payload)$/;"	c
+Items	client/src/redux/cart/cart.reducer.js	/^        cartItems: removeItemFromCart(state.cartItems, action.payload)$/;"	c
+Localhost	client/src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	c
+Map	client/src/redux/shop/shop.actions.js	/^      const collectionsMap = convertCollectionsSnapshotToMap(snapshot)$/;"	c
+Middleware	client/src/redux/store.js	/^const sagaMiddleware = createSagaMiddleware();$/;"	c
+Name	client/src/firebase/firebase.utils.js	/^      routeName: encodeURI(title.toLowerCase()),$/;"	c
+OutFailure	client/src/redux/user/user.actions.js	/^export const signOutFailure = (error) => ({$/;"	c
+OutStart	client/src/redux/user/user.actions.js	/^export const signOutStart = () => ({$/;"	c
+OutSuccess	client/src/redux/user/user.actions.js	/^export const signOutSuccess = () => ({$/;"	c
+Parser	server.js	/^const bodyParser = require('body-parser')$/;"	c
+Reducer	client/src/redux/cart/cart.reducer.js	/^const cartReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	client/src/redux/directory/directory.reducer.js	/^const directoryReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	client/src/redux/root-reducer.js	/^const rootReducer = combineReducers({$/;"	c
+Reducer	client/src/redux/shop/shop.reducer.js	/^const shopReducer = (state = INITIAL_STATE, action) => {$/;"	c
+Reducer	client/src/redux/user/user.reducer.js	/^const userReducer = (state = INITIAL_STATE, action) => {$/;"	c
+ShopActionTypes	client/src/redux/shop/shop.types.js	/^const ShopActionTypes = {$/;"	c
+SignInStart	client/src/redux/user/user.actions.js	/^export const emailSignInStart = (emailAndPassword) => ({$/;"	c
+SignInStart	client/src/redux/user/user.actions.js	/^export const googleSignInStart = () => ({$/;"	c
+StateToProps	client/src/App.js	/^const mapStateToProps = createStructuredSelector({$/;"	c
+UpFailure	client/src/redux/user/user.actions.js	/^export const signUpFailure = (error) => ({$/;"	c
+UpStart	client/src/redux/user/user.actions.js	/^export const signUpStart = (userCredentials) => ({$/;"	c
+UpSuccess	client/src/redux/user/user.actions.js	/^export const signUpSuccess = ({ user, additionalData }) => ({$/;"	c
+UserActionTypes	client/src/redux/user/user.types.js	/^const UserActionTypes = {$/;"	c
+UserProfileDocument	client/src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	c
+UserSession	client/src/App.js	/^  checkUserSession: () => dispatch(checkUserSession()),$/;"	c
+UserSession	client/src/redux/user/user.actions.js	/^export const checkUserSession = () => ({$/;"	c
+addCollectionAndDocuments	client/src/firebase/firebase.utils.js	/^export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {$/;"	v
+addItem	client/src/redux/cart/cart.actions.js	/^export const addItem = item => ({$/;"	v
+addItemToCart	client/src/redux/cart/cart.utils.js	/^export const addItemToCart = (cartItems, cartItemToAdd) => {$/;"	v
+auth	client/src/firebase/firebase.utils.js	/^export const auth = firebase.auth();$/;"	v
+checkUserSession	client/src/redux/user/user.actions.js	/^export const checkUserSession = () => ({$/;"	v
+checkValidServiceWorker	client/src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
+clearCart	client/src/redux/cart/cart.actions.js	/^export const clearCart = () => ({$/;"	v
+clearItemFromCart	client/src/redux/cart/cart.actions.js	/^export const clearItemFromCart = item => ({$/;"	v
+convertCollectionsSnapshotToMap	client/src/firebase/firebase.utils.js	/^export const convertCollectionsSnapshotToMap = (collections) => {$/;"	v
+createUserProfileDocument	client/src/firebase/firebase.utils.js	/^export const createUserProfileDocument = async (userAuth, additionalData) => {$/;"	v
+emailSignInStart	client/src/redux/user/user.actions.js	/^export const emailSignInStart = (emailAndPassword) => ({$/;"	v
+fetchCollectionsFailure	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsFailure = errorMessage => ({$/;"	v
+fetchCollectionsStart	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsStart = () => ({$/;"	v
+fetchCollectionsStartAsync	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsStartAsync = () => {$/;"	v
+fetchCollectionsSuccess	client/src/redux/shop/shop.actions.js	/^export const fetchCollectionsSuccess = collectionsMap => ({$/;"	v
+firestore	client/src/firebase/firebase.utils.js	/^export const firestore = firebase.firestore();$/;"	v
+getCurrentUser	client/src/firebase/firebase.utils.js	/^export const getCurrentUser = () => {$/;"	v
+googleProvider	client/src/firebase/firebase.utils.js	/^export const googleProvider = new firebase.auth.GoogleAuthProvider();$/;"	v
+googleSignInStart	client/src/redux/user/user.actions.js	/^export const googleSignInStart = () => ({$/;"	v
+register	client/src/serviceWorker.js	/^export function register(config) {$/;"	f
+registerValidSW	client/src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
+removeItem	client/src/redux/cart/cart.actions.js	/^export const removeItem = item => ({$/;"	v
+removeItemFromCart	client/src/redux/cart/cart.utils.js	/^export const removeItemFromCart = (cartItems, cartItemToRemove) => {$/;"	v
+selectCartHidden	client/src/redux/cart/cart.selectors.js	/^export const selectCartHidden = createSelector($/;"	v
+selectCartItems	client/src/redux/cart/cart.selectors.js	/^export const selectCartItems = createSelector($/;"	v
+selectCartItemsCount	client/src/redux/cart/cart.selectors.js	/^export const selectCartItemsCount = createSelector($/;"	v
+selectCartTotal	client/src/redux/cart/cart.selectors.js	/^export const selectCartTotal = createSelector($/;"	v
+selectCollection	client/src/redux/shop/shop.selectors.js	/^export const selectCollection = collectionUrlParam =>$/;"	v
+selectCollections	client/src/redux/shop/shop.selectors.js	/^export const selectCollections = createSelector($/;"	v
+selectCollectionsForPreview	client/src/redux/shop/shop.selectors.js	/^export const selectCollectionsForPreview = createSelector($/;"	v
+selectCurrentUser	client/src/redux/user/user.selectors.js	/^export const selectCurrentUser = createSelector($/;"	v
+selectDirectorySections	client/src/redux/directory/directory.selectors.js	/^export const selectDirectorySections = createSelector($/;"	v
+selectIsCollectionFetching	client/src/redux/shop/shop.selectors.js	/^export const selectIsCollectionFetching = createSelector($/;"	v
+selectIsCollectionsLoaded	client/src/redux/shop/shop.selectors.js	/^export const selectIsCollectionsLoaded = createSelector($/;"	v
+signInFailure	client/src/redux/user/user.actions.js	/^export const signInFailure = error => ({$/;"	v
+signInSuccess	client/src/redux/user/user.actions.js	/^export const signInSuccess = (user) => ({$/;"	v
+signInWithGoogle	client/src/firebase/firebase.utils.js	/^export const signInWithGoogle = () => auth.signInWithPopup(googleProvider);$/;"	v
+signOutFailure	client/src/redux/user/user.actions.js	/^export const signOutFailure = (error) => ({$/;"	v
+signOutStart	client/src/redux/user/user.actions.js	/^export const signOutStart = () => ({$/;"	v
+signOutSuccess	client/src/redux/user/user.actions.js	/^export const signOutSuccess = () => ({$/;"	v
+signUpFailure	client/src/redux/user/user.actions.js	/^export const signUpFailure = (error) => ({$/;"	v
+signUpStart	client/src/redux/user/user.actions.js	/^export const signUpStart = (userCredentials) => ({$/;"	v
+signUpSuccess	client/src/redux/user/user.actions.js	/^export const signUpSuccess = ({ user, additionalData }) => ({$/;"	v
+toggleCartHidden	client/src/redux/cart/cart.actions.js	/^export const toggleCartHidden = () => ({$/;"	v
+unregister	client/src/serviceWorker.js	/^export function unregister() {$/;"	f
