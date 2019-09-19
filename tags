@@ -57,6 +57,8 @@ ShopPage	client/src/App.js	/^const ShopPage = lazy(() => import('.\/pages\/shop\
 SignInAndSignUpPage	client/src/App.js	/^const SignInAndSignUpPage = lazy(() =>$/;"	c
 SignInStart	client/src/redux/user/user.actions.js	/^export const emailSignInStart = (emailAndPassword) => ({$/;"	c
 SignInStart	client/src/redux/user/user.actions.js	/^export const googleSignInStart = () => ({$/;"	c
+SpinnerContainer	client/src/components/spinner/spinner.styles.js	/^export const SpinnerContainer = styled.div`$/;"	v
+SpinnerOverlay	client/src/components/spinner/spinner.styles.js	/^export const SpinnerOverlay = styled.div`$/;"	v
 StateToProps	client/src/App.js	/^const mapStateToProps = createStructuredSelector({$/;"	c
 UpFailure	client/src/redux/user/user.actions.js	/^export const signUpFailure = (error) => ({$/;"	c
 UpStart	client/src/redux/user/user.actions.js	/^export const signUpStart = (userCredentials) => ({$/;"	c
